@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pyz.navigationbar.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+
+    <RadioGroup
+        android:id="@+id/navigation_btn"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btn1"
+            android:text="Fragmnet1"
+            android:gravity="center"
+            android:button="@null"
+            android:checked="true"
+            android:background="@drawable/navigation_bar_selector"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/btn2"
+            android:text="Fragmnet2"
+            android:gravity="center"
+            android:button="@null"
+            android:background="@drawable/navigation_bar_selector"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/btn3"
+            android:text="Fragmnet3"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:background="@drawable/navigation_bar_selector"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/btn4"
+            android:text="Fragmnet4"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:background="@drawable/navigation_bar_selector"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </RadioGroup>
+</LinearLayout>
